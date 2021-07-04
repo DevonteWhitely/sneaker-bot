@@ -1,19 +1,25 @@
 {
   "name": "sneaker-bot",
-	"version": "1.0.0",
-	"description": "An add to cart application that allows users to immediately purchase sneakers from various sites upon release.",
-	"engines": {
-		"node": "16.3.0"
-	},
+  "author": "Devonte Whitely",
+  "version": "1.0.0",
+  "description": "An add to cart application that allows users to immediately purchase sneakers from various sites upon release.",
+  "engines": {
+    "node": "16.3.0"
+  },
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
   "dependencies": {
-    "express": "^4.17.1"
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "puppeteer": "^10.1.0",
+    "puppeteer-extra": "^3.1.18",
+    "puppeteer-extra-plugin-recaptcha": "^3.4.0",
+    "puppeteer-extra-plugin-stealth": "^2.7.8"
   },
   "keywords": [
-    "sneakers",
+    "sneaker",
     "bot"
   ],
   "license": "MIT"
