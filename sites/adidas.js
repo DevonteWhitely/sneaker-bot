@@ -37,7 +37,7 @@ console.log(`\nEmail: ${email}, Password: ${pass}, Shoe Size: ${shoeSize}\n`);
   console.log(sizes);
 
   // Add to cart
-  await page.click('[class="gl-cta gl-cta--primary gl-cta--full-width"]', {clickCount:1});
+  await page.click('[class="gl-cta gl-cta--primary gl-cta--full-width"]', {clickCount:1}); 
 
   // 10 seconds
   const viewTime = 10000;
